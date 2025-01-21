@@ -102,7 +102,7 @@ def mostrar_pantalla_inicio():
    
     window = tk.Tk()
     window.title("Welcome, Loading MMMP...")
-    window.geometry("800x600")
+    window.geometry("800x600") #It can be 700x600*
     window.iconbitmap(ruta_icono)
     window.configure(bg="#2E3440")
 
